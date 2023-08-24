@@ -4,8 +4,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-size: 16px;
+}
+
+body {
+    font-size: 18px;
     font-family: "Roboto", sans-serif;
+    color: aliceblue;
+    background-image: url("fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
 }
 
 nav ul {
@@ -20,11 +33,48 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    color: aliceblue;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #4169E1;
 }
 
 .temporada1,
 .temporada2,
 .temporada3 {
+    padding: 40px;
     text-align: center;
 }
 
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.João,
+.Maria,
+.Mariana {
+    border: 2px solid #4169E1;
+    border-radius: 30px;
+    width: 770px;
+    height: 200px;
+    padding: 10px 30px;
+    margin: 55px auto;
+}
+
+.Pedro {
+    border: 2px solid #4169E1;
+    border-radius: 30px;
+    width: 770px;
+    height: 310px;
+    padding: 10px 30px;
+    margin: 20px auto;
+}
